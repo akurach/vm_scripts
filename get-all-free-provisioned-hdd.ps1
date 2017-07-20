@@ -1,3 +1,4 @@
+#https://posh2scripting.wordpress.com/2013/05/17/get-datastore-list-with-full-free-space-and-provisioned-space/
 #add-pssnapin VMware.VimAutomation.Core
 #connect-viserver v -user USERNAME -password PASSWORD
 $datastores = get-datastore | get-view
